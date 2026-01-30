@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const cron = require('node-cron');
 
 // ВАЖНО: Вставьте ваш токен от @BotFather между кавычками!
-const token = 'ВАШ_ТОКЕН_ЗДЕСЬ';
+const token = '8548588340:AAFb9aV_DswdcTDcW_ElEMrQ_vDhDuy00Gk';
 const bot = new TelegramBot(token, { polling: true });
 
 let incidentCounters = {}; // Хранилище счетчиков (временное)
